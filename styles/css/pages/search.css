@@ -1,0 +1,70 @@
+@import url("../../css/reset.css");
+.container-barra-pesquisa {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.container-barra-pesquisa .barra-pesquisa {
+  height: 36px;
+  width: 327px;
+  border: none;
+  background-color: #7676801f;
+  border-radius: 10px;
+  background-image: url(../../../assets/icon/Icon-pesquisa.svg);
+  background-repeat: no-repeat;
+  background-position: 10px 11px;
+  background-size: 16px;
+}
+.container-barra-pesquisa .barra-pesquisa::placeholder {
+  padding-left: 34px;
+}
+
+.container-icons {
+  height: 62px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+}
+.container-icons::-webkit-scrollbar {
+  display: none;
+}
+.container-icons .content-icon {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
+  font-family: arial;
+  border: 1px solid rgba(60, 60, 67, 0.18);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.container-imagens {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container-imagens .imagens {
+  width: 33%;
+}
+
+.barra-final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  min-height: 50px;
+  background-color: #f2f2f2;
+  position: sticky;
+  bottom: 0;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=search.css.map */
