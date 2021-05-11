@@ -43,7 +43,10 @@ header {
 
     .story-img {
       margin-bottom: 8px;
-      @include box-round(56px);
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
     }
   }
 }
@@ -65,6 +68,7 @@ header {
 
       .author-img {
         @include box-round(32px);
+        object-fit: cover;
       }
 
       .author-infos {

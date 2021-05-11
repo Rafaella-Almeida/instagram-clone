@@ -1,0 +1,12 @@
+@import url("../../css/reset.css");
+.container-barra-inicial {
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+.container-barra-inicial .conteudo-barra {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=likes.css.map */

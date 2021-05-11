@@ -1,0 +1,186 @@
+@import url("../../css/reset.css");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-barra-inicial {
+  width: 100%;
+  height: 82px;
+  background-color: #fafafa;
+  border: 1px solid #2626261e;
+}
+.container-barra-inicial .conteudo-barra {
+  display: flex;
+  justify-content: space-around;
+}
+.container-barra-inicial .conteudo-barra .text-barra {
+  margin: 48px 75px 26px 41px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+}
+.container-barra-inicial .conteudo-barra .content-you {
+  border-block-end: 1px solid black;
+  width: 180px;
+  height: 81px;
+}
+.container-barra-inicial .conteudo-barra .text-barra-you {
+  justify-content: center;
+  display: flex;
+  margin: 48px 75px 26px 64px;
+  font-weight: 600;
+  color: black;
+}
+
+.container-frase-inicial {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 48px;
+  background-color: #ffffff;
+  border: 1px solid #2626261e;
+}
+.container-frase-inicial .frase-inicial {
+  color: #262626;
+  margin: 16px;
+}
+
+.container-primeiro-post {
+  border: 1px solid #2626261e;
+  height: 124px;
+}
+.container-primeiro-post .content-new {
+  display: flex;
+  padding: 16px;
+  font-weight: bold;
+}
+.container-primeiro-post .container-posts-likes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-primeiro-post .container-posts-likes .content-posts-likes {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content: space-evenly;
+}
+.container-primeiro-post .container-posts-likes .nome-like {
+  font-weight: bold;
+}
+.container-primeiro-post .container-posts-likes .horario-like {
+  color: #80808096;
+}
+.container-primeiro-post .container-posts-likes .img-publicacao {
+  width: 56px;
+  height: 56px;
+  transform: translate(-3%, 4%);
+}
+
+.content-today {
+  display: flex;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.container-segundo-post {
+  display: flex;
+  margin: -10px 0px 0px 0px;
+  border-block-end: 1px solid #2626261e;
+  height: 92px;
+}
+.container-segundo-post .container-imagens-likes {
+  margin-left: 28px;
+}
+.container-segundo-post .container-imagens-likes .perfil2 {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 40%;
+  left: 35%;
+  transform: translate(-70%, -70%);
+}
+.container-segundo-post .container-imagens-likes .perfil3 {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 10%;
+  left: 65%;
+  transform: translate(-70%, -70%);
+}
+.container-segundo-post .text-perfil1e2 {
+  width: 92%;
+  height: 80%;
+  position: relative;
+  top: 85%;
+  left: 64%;
+  transform: translate(-70%, -70%);
+}
+.container-segundo-post .text-perfil1e2 .nome-like {
+  font-weight: bold;
+}
+.container-segundo-post .text-perfil1e2 .numero-like {
+  font-weight: bold;
+}
+.container-segundo-post .text-perfil1e2 .horario-like {
+  color: #80808096;
+}
+.container-segundo-post .img-publicacao {
+  width: 56px;
+  height: 56px;
+  transform: translate(-25%, 33%);
+}
+
+.content-this-week {
+  display: flex;
+  font-weight: bold;
+  padding: 16px;
+}
+
+.container-quarto-post {
+  display: flex;
+}
+.container-quarto-post .content-img-text-post4 {
+  display: flex;
+  width: 100%;
+}
+.container-quarto-post .content-img-text-post4 .perfil4 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  left: 14%;
+  top: 45px;
+  transform: translate(-70%, -70%);
+}
+.container-quarto-post .content-img-text-post4 .content-text-perfil4 {
+  width: 60%;
+}
+.container-quarto-post .content-img-text-post4 .content-text-perfil4 .text-perfil4 {
+  position: relative;
+  width: 100%;
+  top: 100%;
+  left: 83%;
+  transform: translate(-70%, -70%);
+}
+.container-quarto-post .content-img-text-post4 .content-text-perfil4 .text-perfil4 .nome-like {
+  font-weight: bold;
+}
+.container-quarto-post .content-img-text-post4 .content-text-perfil4 .text-perfil4 .usuario-like {
+  color: #2929c7;
+}
+.container-quarto-post .content-img-text-post4 .content-text-perfil4 .text-perfil4 .horario-like {
+  color: #80808096;
+}
+.container-quarto-post .content-img-text-post4 .img-publicacao {
+  display: flex;
+  transform: translate(80%, 10%);
+}
+
+.icones-pagina {
+  display: flex;
+  margin: 30px 0px 0px 82px;
+}
+.icones-pagina .icone-coracao {
+  margin: 7px 14px 8px 12px;
+}
+
+/*# sourceMappingURL=like.css.map */

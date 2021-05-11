@@ -66,9 +66,10 @@ header .action-icon {
 }
 .stories-container .story-item .story-img {
   margin-bottom: 8px;
-  width: 56px;
-  height: 56px;
   border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }
 
 .feed-container {
@@ -90,6 +91,7 @@ header .action-icon {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .feed-container .card-post .card-header .author-infos .author-name {
   font-weight: 600;
